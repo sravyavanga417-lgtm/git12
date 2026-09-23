@@ -8,6 +8,7 @@ resource "azurerm_storage_account" "example" {
   tags = {
     environment = "staging"
   }
+  
 }
 
 resource "azurerm_storage_container" "example" {
