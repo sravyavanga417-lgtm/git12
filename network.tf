@@ -5,7 +5,6 @@ resource "azurerm_virtual_network" "vnet" {
     location = "eastUS"
 }
 
-
 resource "azurerm_subnet" "subnet01" {
     name = "subnet01"
     resource_group_name = "rg"
